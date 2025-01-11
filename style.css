@@ -1,0 +1,81 @@
+
+   .main {
+    /* background-color: aquamarine; */
+    background-repeat:no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 60px;
+    position: absolute;
+    z-index: -1; 
+    object-fit: contain;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+  .containercard{
+    
+    align-items: center;
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+  
+  }
+  .bottom-img{
+    width: 100%;
+  }
+  div{
+    /* border : 1px solid grey; */
+    padding: 2px;
+  }
+  .product-item{
+    max-width: 300px;
+    margin: auto;
+  }
+  .card1 {
+    color : rgb(34, 34, 139);
+  }
+    
+    .btn-grad {
+      background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)
+    }
+    .btn-grad {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+     }
+
+     .btn-grad:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+     footer{
+      background-image: radial-gradient( circle 382px at 50% 50.2%,  rgba(73,76,212,1) 0.1%, rgba(3,1,50,1) 100.2% );
+     }
+     .social-icons{
+      color: white;
+     }
+     .Section{
+      color: white;
+     }
+     .wattsapp_main{
+      position: fixed;
+      bottom: 40px;
+      right: 20px;
+      text-align: right;
+     }
+    
+  
